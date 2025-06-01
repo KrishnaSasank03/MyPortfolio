@@ -1,0 +1,107 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgb(215, 213, 210);
+}
+
+header{
+    color: white;
+    background-color: rgb(85, 158, 158);
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 40px;
+    color: rgb(95, 97, 93);
+}
+
+header h1{
+    text-align: center;
+   color: aliceblue;
+}
+.but{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;  
+    cursor: pointer; 
+    margin: 5px;
+}
+.but:hover{
+    background-color: rgb(201, 161, 108);
+}
+img{
+    height: 200px; 
+}
+main{
+    padding: 10px;
+}
+section{
+    height: 100vh;
+    border: 1px solid rgb(249, 249, 249);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+form div{
+    margin: 5px 0;
+}
+
+.submit{
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgb(212, 18, 18);
+    border-radius: 10px;  
+    cursor: pointer; 
+    background-color: aqua; 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.submit:hover{
+    background-color:rgb(172, 131, 77)
+}
+input{
+    border-radius: 7px;
+    border: 1px solid grey;
+    height: 20px;
+}
+footer{
+    height: 100px;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 180px;  
+    cursor: pointer; 
+    background-color: rgb(102, 235, 148);
+}
+.fixedbutton:hover{
+    background-color: azure;
+}
